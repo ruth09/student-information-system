@@ -1,0 +1,83 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    </head>
+<body>
+    <CENTER>    <h1> INTERNAL ASSESSMENT MARKS</h1> </CENTER>
+  <style>
+  body {
+background: linear-gradient(45deg, rgba(239,255,191,1) 0%, rgba(43,184,255,1) 99%, rgba(43,184,255,1) 100%); 
+      font-family: 'Arvo', serif;
+      }
+
+      
+      h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px green;
+}
+   table#t01 tr:nth-child(even) {
+    background-color: #FDF3E7;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#CBE32D;
+}
+table#t01 th {
+    background-color: #74AFAD;
+    color: white;
+}
+      
+      
+  </style>
+
+    <CENTER>
+    <BR>
+        <BR>
+        <table id="t01" cellspacing="1" cellpadding="10">
+  <tr>
+    <th>SUBJECT NAME</th>
+    <th>MARKS</th> 
+      
+      
+      </tr>
+  <tr>
+    <td>SUBJECT 1</td>
+    <td>90</td>
+
+  </tr>
+  <tr>
+<td>SUBJECT 2</td>
+    <td>95</td>
+      </tr>
+  <tr>
+    <td>SUBJECT 3</td>
+    <td> 85</td>
+
+            </tr>
+<tr>
+    
+            <td>SUBJECT 4</td>
+    <td>100</td>
+
+            </tr>
+<tr>
+    
+            <td>SUBJECT 5</td>
+    <td>90</td>
+
+            </tr>
+
+<tr>
+    
+            <td>SUBJECT 6</td>
+    <td>100</td>
+
+            </tr>
+            <br><br><br>
+
+            
+            
+    </table><BR><BR>
+            <h3 id="pay"><a href="file1.html" style="color:red;"> Click here to return Home page</a></h3>
+    </CENTER>
+    </body>
+</html>

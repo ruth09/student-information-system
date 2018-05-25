@@ -1,0 +1,65 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    </head>
+<body>
+    <CENTER>    <h1> LIST OF DEALERS</h1> </CENTER>
+  <style>
+  body {
+background: linear-gradient(45deg, rgba(239,255,191,1) 0%, rgba(43,184,255,1) 99%, rgba(43,184,255,1) 100%); 
+      font-family: 'Arvo', serif;
+      }
+
+      
+      h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px green;
+}
+      table
+      {
+          border: solid black 2px;
+      }
+   table#t01 tr:nth-child(even) {
+    background-color: #FDF3E7;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#CBE32D;
+}
+table#t01 th {
+    background-color: #74AFAD;
+    color: white;
+}
+      
+      
+  </style>
+
+    <CENTER>
+    <BR>
+        <BR>
+        <table id="t01" cellspacing=10px cellpadding=10px>
+  <tr>
+    <th>SHOPNAME</th>
+    <th>CITY</th> 
+      </tr>
+  <tr>
+    <td>ANIRUDH</td>
+    <td>CHENNAI</td>
+    
+  </tr>
+  <tr>
+    <td>ARJUN</td>
+    <td>COIMBATORE</td>
+      </tr>
+  <tr>
+    <td>ALAGAR</td>
+    <td>SALEM</td>
+      </tr>
+<tr>
+    <td>BHARATHI</td>
+    <td>VILLUPURUM</td>
+      </tr>
+
+    </table>
+    </CENTER>
+    </body>
+</html>
